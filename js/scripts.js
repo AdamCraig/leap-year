@@ -1,3 +1,11 @@
+//BUISINESS LOGIC
+
+var leapYear = function(year) {
+  return false;
+};
+
+// USER INTERFACE
+
 $(document).ready(function() {
   $("#leap-year").submit(function(event) {
     event.preventDefault();
